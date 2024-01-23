@@ -8,7 +8,7 @@ public class UtilityMethods
 
     Scanner scanner;
 
-    public UI() {
+    public UtilityMethods() {
         scanner = new Scanner(System.in);         
     }
 
