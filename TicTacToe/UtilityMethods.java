@@ -24,7 +24,7 @@ public class UtilityMethods
     public boolean isLegalMove(int state, int row, int col) {
         return 1 <= row && row <= Constants.BOARD_SIZE &&
         1 <= col && col <= Constants.BOARD_SIZE &&
-         state.getBoardCell(row, col) == Constants.BLANK;
+        state.getBoardCell(row, col) == Constants.BLANK;
     }
 
     // Prompt for input methods
