@@ -1,3 +1,4 @@
+package TicTacToe;
 
 /**
  * Tic-Tac-Toe state variables.
@@ -10,4 +11,3 @@ public class State
     private String oName = "";
     private int[][] board = new int[Constants.BOARD_SIZE][Constants.BOARD_SIZE];
 }
-

@@ -1,3 +1,4 @@
+package TicTacToe;
 
 /**
  * Tic-Tac-Toe game constants
@@ -26,7 +27,7 @@ public class Constants
     public static final int O_WINS = 9;
     public static final int GAME_OVER = 10;
     public static final int QUIT_PROGRAM = 11;
-
+    
     // Strings
     public static final String DIVIDER_STRING = "|---|---|---|";
     public static final String BOARD_STRING = "| %s ";
@@ -41,4 +42,3 @@ public class Constants
     public static final String TIE_GAME = "It's a tie game!";
     public static final String START_NEW_GAME = "Start a new game (Y or N)?";
 }
-

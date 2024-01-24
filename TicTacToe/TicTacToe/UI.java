@@ -1,14 +1,14 @@
-import java.util.*;
+package TicTacToe;
 
 /**
  * UI class
  */
-public class UtilityMethods
+public class UI
 {
 
     Scanner scanner;
 
-    public UtilityMethods() {
+    public UI() {
         scanner = new Scanner(System.in);         
     }
 
