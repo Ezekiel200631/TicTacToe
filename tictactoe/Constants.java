@@ -1,4 +1,4 @@
-package TicTacToe;
+package tictactoe;
 
 /**
  * Tic-Tac-Toe game constants
