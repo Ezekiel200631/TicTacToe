@@ -34,11 +34,11 @@ public class UI
         return scanner.next();
     }
 
-    public int getMoveRow(int whoseMove) {
+    public int getMoveRow(int whoseMove, String xName, String oName) {
         int row;
         while (row <= 0 || row >= 4) {
             try {
-                System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove));
+                System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove, xName, oName));
                 row = scanner.nextInt();
             } catch (Exception e) {
                 System.out.println(Constants.INVALID_ROW_OR_COLUMN);
@@ -47,11 +47,11 @@ public class UI
         return row;
     }
 
-    public int getMoveCol(int whoseMove) {
+    public int getMoveCol(int whoseMove, String xName, String oName) {
         int col;
         while (col <= 0 || col >= 4) {
             try {
-                System.out.printf(Constants.GET_COL_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove));
+                System.out.printf(Constants.GET_COL_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove, xName, oName));
                 col = scanner.nextInt();
             } catch (Exception e) {
                 System.out.println(Constants.INVALID_ROW_OR_COLUMN);
