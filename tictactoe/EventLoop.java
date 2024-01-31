@@ -7,7 +7,7 @@ public class EventLoop {
     UI ui = new UI();
     int row, col;
 
-    public static void main (String[] args) { 
+    public static void main(String[] args) { 
         EventLoop eventLoop = new EventLoop(); 
         eventLoop.run();
     }
@@ -19,11 +19,11 @@ public class EventLoop {
                 state.setGameState(Constants.GET_X_NAME);
 
             } else if (gameState == Constants.GET_X_NAME) {
-                state.setXName(ui.promptForName(Constants.X));
+                state.setXName(ui.promptForName("X"));
                 state.setGameState(Constants.GET_O_NAME);
 
             } else if (gameState == Constants.GET_O_NAME) {
-                state.setOName(ui.promptForName(Constants.O));
+                state.setOName(ui.promptForName("O"));
                 state.setGameState(Constants.GET_X_MOVE);
 
             } else if (gameState == Constants.GET_X_MOVE) {
