@@ -1,11 +1,11 @@
 #BlueJ package file
-dependency1.from=UI
-dependency1.to=State
+dependency1.from=State
+dependency1.to=Constants
 dependency1.type=UsesDependency
 dependency2.from=UI
-dependency2.to=Constants
+dependency2.to=State
 dependency2.type=UsesDependency
-dependency3.from=State
+dependency3.from=UI
 dependency3.to=Constants
 dependency3.type=UsesDependency
 dependency4.from=EventLoop
@@ -23,8 +23,8 @@ package.divider.horizontal=0.6
 package.divider.vertical=0.8
 package.editor.height=393
 package.editor.width=672
-package.editor.x=846
-package.editor.y=121
+package.editor.x=1109
+package.editor.y=465
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=6
