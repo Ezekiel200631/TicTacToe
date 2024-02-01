@@ -14,8 +14,14 @@ public class UI
     }
 
     // Utility methods
-    public String getXOrO(int whoseMove) {
-        return (whoseMove == -1) ? "X" : "O";
+    public String getXOrO(int whoseMove) { 
+        if (whoseMove == -1) { 
+            return "X";
+        } else if (whoseMove == 1) { 
+            return "0"; 
+        } else { 
+            return " ";
+        }
     }
 
     public String getPlayerName(int whoseMove, String xName, String yName) {
@@ -74,7 +80,8 @@ public class UI
     public void printBoard(State state) {
         System.out.println(Constants.DIVIDER_STRING);
         for (int row = 0; row < Constants.BOARD_SIZE; row++) {
-            System.out.printf(Constants.BOARD_STRING, getXOrO(state.getBoardCell(row, 0)), getXOrO(state.getBoardCell(row, 1)), getXOrO(state.getBoardCell(row, 2)));
+            System.out.printf(Constants.BOARD_STRING, getXOrO(state.getBoardCell(row, 0)), getXOrO(state.getBoardCell(row, 1)), getXOrO(state.getBoardCell(row, 2))); 
+            System.out.println();
             System.out.println(Constants.DIVIDER_STRING);
         }
     }
