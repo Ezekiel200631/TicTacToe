@@ -18,7 +18,7 @@ public class UI
         if (whoseMove == -1) { 
             return "X";
         } else if (whoseMove == 1) { 
-            return "0"; 
+            return "O"; 
         } else { 
             return " ";
         }
