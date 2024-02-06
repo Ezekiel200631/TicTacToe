@@ -114,7 +114,7 @@ public class UI
         System.out.println();
     }
 
-     public void printTieGame() {
+    public void printTieGame() {
         System.out.println(Constants.TIE_GAME);
     }
 }

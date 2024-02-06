@@ -41,7 +41,6 @@ public class EventLoop {
                 if (ui.isLegalMove(state, row, col)) {
                     state.setGameState(Constants.MAKE_MOVE); 
                 }
-                
 
             } else if (gameState == Constants.MAKE_MOVE) {
                 ui.printMove(state, row, col);

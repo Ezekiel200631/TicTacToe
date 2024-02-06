@@ -27,7 +27,7 @@ public class Constants
     public static final int O_WINS = 9;
     public static final int GAME_OVER = 10;
     public static final int QUIT_PROGRAM = 11;
-    
+
     // Strings
     public static final String DIVIDER_STRING = "|---|---|---|";
     public static final String BOARD_STRING = "| %s | %s | %s |";
