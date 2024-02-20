@@ -69,7 +69,7 @@ public class UI
     public boolean startNewGame() {
         System.out.println(Constants.START_NEW_GAME);
         String yesOrNo = scanner.next();
-        return yesOrNo.equals("y") || yesOrNo.equals("y");
+        return yesOrNo.equals("Y") || yesOrNo.equals("y");
     }
 
     // Printing text methods
